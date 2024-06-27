@@ -7,20 +7,21 @@ match priority:
     case "high":
         if time_bound == "yes":
             reminder = f"'{task}' is a {priority} priority task that requires immediate attention today!"
+            print("Reminder:", reminder)
         elif time_bound == "no":
             reminder = f"'{task}' is a {priority} priority task. Consider completing it when you have free time."
+            print("Note:", reminder)
     case "medium":
         if time_bound == "yes":
             reminder = f"'{task}' is a {priority} priority task that requires immediate attention today!"
+            print("Reminder:", reminder)
         elif time_bound == "no":
             reminder = f"'{task}' is a {priority} priority task. Consider completing it when you have free time."
+            print("Note:", reminder)
     case "low":
         if time_bound == "yes":
             reminder = f"'{task}' is a {priority} priority task that requires immediate attention today!"
+            print("Reminder:", reminder)
         elif time_bound == "no":
             reminder = f"'{task}' is a {priority} priority task. Consider completing it when you have free time."
-
-if time_bound == "yes":
-    print("Reminder:", reminder)
-elif time_bound == "no":
-    print("Note:", reminder)
+            print("Note:", reminder)
