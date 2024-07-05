@@ -13,8 +13,8 @@ temperature = input("Enter the temperature to convert: ")
 unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
 
 if temperature.isdigit() and unit.lower() == "f":
-    celcius = convert_to_celsius(int(temperature))
-    print(f"{temperature}°F is {celcius}°C")
+    celsius = convert_to_celsius(int(temperature))
+    print(f"{temperature}°F is {celsius}°C")
 elif temperature.isdigit() and unit.lower() == "c":
     fahrenheit = convert_to_fahrenheit(int(temperature))
     print(f"{temperature}°C is {fahrenheit}°F")
