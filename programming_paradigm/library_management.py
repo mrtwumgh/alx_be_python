@@ -5,6 +5,12 @@ class Book:
         self.author = author
         self._is_checked_out = False
 
+    def return_book(self):
+        pass
+
+    def check_out_book(self):
+        pass
+
 
 class Library:
 
